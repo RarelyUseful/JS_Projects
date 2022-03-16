@@ -18,12 +18,12 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
-function ask() {
+(function ask() {
   rl.question(`Guess a number in range from ${currentRange[0]} to ${currentRange[1]}: `, function (answer) {
     console.log(`You guessed: ${answer}`);
     checkAnswer(answer);
   });
-}
+})();
 function checkAnswer(num) {
   if (userGuesses.includes(num)) {
     console.log(`You already tried this number, try again.`);
@@ -47,7 +47,7 @@ function checkAnswer(num) {
     ask();
   }
 }
-ask();
+
 /* to run, type in teminal:
 node 02.js
 */
