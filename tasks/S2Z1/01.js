@@ -30,7 +30,7 @@ function printPrimesInRange(num1, num2) {
 }
 
 // printPrimesInRange(-1, 100);
-// printPrimesInRange(1, 99);
-printPrimesInRange(100, 299);
+printPrimesInRange(1, 100);
+// printPrimesInRange(100, 299);
 
 // printPrimesInRange(100, 1);
