@@ -57,7 +57,7 @@ const dataJSON = require('./Data.json');
 //         let sum = Number(0);
 //         json.forEach(e => {
 //             if((e.detailsOfPayent.date).includes((month+'-'), 3)){
-//                 sum=sum+Number(e.cost); //why sum=+ is not working as intended?
+//                 sum=sum+Number(e.cost); 
 //             }
 //         });
 //     console.log(`Spent in month ${month}: ${sum}`);
