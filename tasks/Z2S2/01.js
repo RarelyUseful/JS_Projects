@@ -49,7 +49,7 @@ function translateToMorse(text) {
       return morseEnum[x];
     });
   return translated.toString().replace(/,/g, " ");
-  //   return translated.toString().replaceAll(",", " "); // Throws error: replaceAll is not a function... ?!
+  //   return translated.toString().replaceAll(",", " ");
 }
 function translateFromMorse(text) {
   let translated = text.split(" ").map((x) => {
