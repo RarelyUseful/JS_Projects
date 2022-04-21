@@ -54,7 +54,7 @@ class Execute {
 }
 
 class MyFunctions {
-  // for some reason Enum is not recognized when in class
+  // for some reason Enum is not recognized when in class, might try to put it in constructor.
 
   toMorse(input) {
     let translated = input
